@@ -4,12 +4,17 @@
     margin: 2px auto; 
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
-    display: flex;
+    width: 100%;
     text-align: right;
 }
 
-.text-box {
-    border: 1px solid #ccc;
-    text-align: right;
+.right-align {
+    margin-left: auto; 
+    display: inline-block;
 }
